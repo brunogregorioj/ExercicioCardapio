@@ -1,53 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-
-    <title>Receitas Culinárias</title>
+    <title>Receitas</title>
+    <link rel="stylesheet" href="styles/estilo.css">
 </head>
-
 <body>
-    </head>
-
-    <body>
-        <header>
-            <div class="container">
-                <div class="logo">
-                    <img src="assets/Logo.png" alt="Receitas do Zé">
-                    <h1>Receitas do Zé</h1>
-                </div>
-                <div class="pesquisa">
-                    <form action="#">
-                        <input type="text" placeholder="Pesquisar">
-                        <button type="submit">Buscar</button>
-                    </form>
-                </div>
-            </div>
-        </header>
-        <main>
-            <section class="recipe-container">
-                <div class="recipe-list">
-                    <a href="PReceita1.html"><img src="recipe1.jpg" alt="Receita 1"></a>
-                    <a href="PReceita2.html"><img src="recipe2.jpg" alt="Receita 2"></a>
-                    <a href="PReceita3.html"><img src="recipe3.jpg" alt="Receita 3"></a>
-            </section>
-            </div>
-        </main>
-        <Footer>
-            <!-- Sessão de Footer/Rodapé-->
-            <section class="footer">
-                <div class="footer__rodape">
-                    <p>Desenvolvido por UNA 2024</p>
-                </div>
-            </section>
-        </Footer>
-    </body>
-
+    <header>
+        <h1>Três receitas para Você</h1>
+    </header>
+    <main>
+        <div class="recipe-card" onclick="window.location.href='paginas/parmegiana.html';">
+            <img src="imagens/frango-parmegiana.webp" alt="parmegiana">
+            <h2>Frango à Parmegiana</h2>
+        </div>
+        <div class="recipe-card" onclick="window.location.href='paginas/broa.html';">
+            <img src="imagens/broa-de-fuba.webp" alt="broa">
+            <h2>Broa de Fubá</h2>
+        </div>
+        <div class="recipe-card" onclick="window.location.href='paginas/salada.html';">
+            <img src="imagens/ceaser-salad.webp" alt="salada">
+            <h2>Salada Caesar</h2>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Super Receitas</p>
+    </footer>
+</body>
 </html>
