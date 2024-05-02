@@ -12,5 +12,4 @@ Este projeto consiste na criação de dois sites simples e um formulário HTML u
 
 
 ---
-
 Este projeto foi desenvolvido como parte de um exercício de prática em desenvolvimento web.
